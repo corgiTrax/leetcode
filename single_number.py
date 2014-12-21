@@ -37,5 +37,9 @@ class Solution2:
 
 #interestingly, solution 1 is faster than solution 2.
 
+#Solution 3: make use of 'set' in python
+class Solution:
+    def singleNumber(self, A):
+        return 2*sum(set(A)) - sum(A)
 
 
