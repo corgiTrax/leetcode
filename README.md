@@ -1,4 +1,4 @@
 leetcode
 ========
 
-code for problems on leetcode
+Python code for problems on leetcode
