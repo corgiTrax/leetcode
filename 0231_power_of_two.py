@@ -11,7 +11,7 @@ class Solution(object):
 
 # using bitwise and
 # also using the fact that in binary, 2^x is of form 100..., 2^x - 1 is of form 111...
-class Solution(object):
+class Solution1(object):
     def isPowerOfTwo(self, n):
         return n > 0 and (n & (n-1)) == 0
         
